@@ -1,0 +1,18 @@
+1. Recibir o encontrar una pieza de información en entornos digitales (redes sociales, mensajería o webs).
+  2. Leer la información completa, absteniéndose de reaccionar o compartir basándose solo en el titular.
+  3. Identificar de forma explícita el autor, el emisor o el medio de comunicación que origina la publicación.
+  4. Evaluar la reputación de la fuente:
+     - SI la fuente es un medio reconocido, una institución oficial o un artículo académico -> Continuar al paso 5.
+     - SINO (es un blog anónimo, cadena de WhatsApp o cuenta sin verificar) -> Ir al paso 9 (Descartar).
+  5. Extraer y verificar la fecha de publicación original:
+     - SI la noticia es actual y corresponde al contexto presente -> Continuar al paso 6.
+     - SINO (es un hecho antiguo revivido) -> Ir al paso 9 (Descartar).
+  6. Rastrear las evidencias dentro del texto (enlaces, citas de expertos, documentos oficiales o estadísticas):
+     - SI el texto cuenta con soportes reales y verificables -> Continuar al paso 7.
+     - SINO (solo son opiniones o afirmaciones sin pruebas) -> Ir al paso 9 (Descartar).
+  7. Contrastar la información realizando una búsqueda externa en al menos dos motores de búsqueda independientes:
+     - SI otros medios confiables confirman el mismo hecho -> Continuar al paso 8.
+     - SINO (ningún otro medio reporta la situación) -> Ir al paso 9 (Descartar).
+  8. ACCIÓN RECOMENDADA: Proceder a compartir la información de manera responsable, citando la fuente original. Ir al paso 10.
+  9. ACCIÓN DE CONTENCIÓN: Detener la difusión de la información, romper la cadena de reenvíos y clasificarla como no confiable.
+10. Fin del proceso.
