@@ -1,0 +1,13 @@
+Resultados de las pruebas en el navegador (Puerto 3000):
+
+1. Al meterse a http://localhost:3000
+   - Qué pasa: El navegador te saca un texto plano que dice "Servidor activo".
+   - El porqué: Aquí estamos tocando la ruta raíz ('/') con un método GET básico. Es la respuesta de control que programamos para confirmar que el servidor está vivito, escuchando y respondiendo peticiones sin problemas.
+
+2. Al meterse a http://localhost:3000/saludo
+   - Qué pasa: En la pantalla te sale el texto "Hola comunidad".
+   - El porqué: El servidor intercepta la petición exactamente en el endpoint '/saludo' y te escupe el string de texto que dejamos fijo en el código para saludar al público.
+
+3. Al meterse a http://localhost:3000/mensaje/juan
+   - Qué pasa: El navegador te responde con un "Hola juan".
+   - El porqué: Esto es lo más bacano porque es una ruta con un parámetro dinámico (el ':nombre'). Express es inteligente: lee lo que sea que uno ponga en esa parte de la URL, lo guarda automáticamente en una variable dentro de `req.params.nombre` y lo concatena en la respuesta en tiempo real. Si en la URL cambias "juan" por tu propio nombre o cualquier otra palabra, el servidor reacciona al tiro y te saluda de forma personalizada.
