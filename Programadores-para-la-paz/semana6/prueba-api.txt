@@ -1,6 +1,0 @@
-Al enviar la petición POST a la ruta http://localhost:3000/registro con el JSON de prueba de María, el servidor procesa la información entrante gracias al middleware express.json(), captura las variables desde el body usando req.body y devuelve una respuesta estructurada en formato JSON que confirma la recepción exitosa de los datos:
-{
-  "estado": "Datos recibidos",
-  "nombre": "Maria",
-  "mensaje": "Hola comunidad"
-}
