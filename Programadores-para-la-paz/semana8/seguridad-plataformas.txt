@@ -1,0 +1,5 @@
+1. No exponer datos personales de los usuarios de la comunidad en directorios públicos.
+2. Proteger credenciales mediante políticas de contraseñas fuertes y la implementación de doble factor de autenticación (2FA).
+3. Usar conexiones seguras y cifradas (como HTTPS y protocolos SSH configurados adecuadamente).
+4. Registrar y auditar los accesos al sistema para detectar comportamientos inusuales o ingresos no autorizados.
+5. Limitar el acceso a información sensible aplicando el principio de mínimo privilegio, asegurando que cada rol solo vea lo estrictamente necesario.
