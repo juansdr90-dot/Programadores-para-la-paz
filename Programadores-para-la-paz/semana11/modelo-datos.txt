@@ -1,0 +1,24 @@
+MODELO DE DATOS: PLATAFORMA DE CAUSAS COMUNITARIAS
+
+Entidad: Causa
+Campos principales:
+- id (Clave primaria, Autoincremental)
+- titulo (Texto, Obligatorio)
+- descripcion (Texto largo, Obligatorio)
+- lider_usuario_id (Entero, Relación con la tabla de usuarios)
+- fecha_creacion (Fecha/Hora por defecto actual)
+
+Propósito:
+Almacenar de forma estructurada las iniciativas, proyectos o problemáticas del barrio que la comunidad propone resolver o visibilizar en la plataforma.
+
+--------------------------------------------------
+
+Entidad: Apoyo
+Campos principales:
+- id (Clave primaria, Autoincremental)
+- causa_id (Entero, Clave foránea que conecta con Causa)
+- usuario_anonimizado_id (Entero, Identificador interno del usuario que apoya)
+- fecha_apoyo (Fecha/Hora)
+
+Propósito:
+Registrar los votos o respaldos digitales que recibe cada causa por parte de los ciudadanos para medir el nivel de impacto, permitiendo la trazabilidad y la priorización de las solicitudes sin exponer la identidad real del votante.

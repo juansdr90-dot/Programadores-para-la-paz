@@ -1,0 +1,7 @@
+EXPLICACIÓN DE AUTENTICACIÓN Y SEGURIDAD
+
+El proceso de login en una aplicación es el mecanismo de control de acceso que permite validar la identidad de un usuario mediante credenciales seguras (como correo y contraseña cifrada) antes de otorgarle permisos en el sistema. 
+
+Es fundamental proteger ciertas rutas de la aplicación porque contienen funciones administrativas críticas, bases de datos internas o flujos de gestión que, de dejarse públicos, podrían ser vulnerados, alterados o saboteados por atacantes externos. 
+
+En una plataforma digital con enfoque social, bajo ninguna circunstancia se debe exponer públicamente información confidencial como contraseñas en texto plano, números de documento de identidad (Cédula/DNI), teléfonos móviles, direcciones de residencia, tokens de sesión, llaves de API o datos médicos y sensibles de los miembros de la comunidad.

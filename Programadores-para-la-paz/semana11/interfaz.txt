@@ -1,0 +1,10 @@
+DISEÑO DE INTERFAZ BÁSICA (UX/UI CIUDADANA)
+
+La interfaz de usuario estará diseñada de manera limpia y accesible, priorizando la facilidad de uso mediante las siguientes secciones:
+
+1. Formulario para crear una causa: Una sección protegida por login que contiene dos campos de texto ("Título de la Causa" y "Descripción de la Necesidad") y un botón destacado que dice "Publicar Iniciativa".
+2. Vista de causas disponibles: Un muro o feed principal que lista las causas comunitarias activas en tarjetas visuales independientes, mostrando el título, la descripción y la fecha de publicación.
+3. Botón para apoyar una causa: Cada tarjeta de causa incluirá un botón interactivo con el icono de una mano levantada o un pulgar arriba que dice "Respaldar Causa".
+4. Contador de apoyos: Justo al lado del botón de respaldo, una etiqueta numérica mostrará en tiempo real el total acumulado de apoyos (ej. "42 ciudadanos apoyan esto").
+
+La interfaz mantendrá una política estricta de privacidad, ocultando los datos personales del creador y de los votantes para evitar cualquier tipo de persecución o filtración de información privada.
