@@ -1,0 +1,10 @@
+DISEÑO DE AUTOMATIZACIÓN (n8n + Telegram)
+
+1. ¿Qué evento activa la automatización?
+El flujo de automatización se activa mediante un nodo "Webhook" en n8n que escucha en tiempo real cada vez que una causa alcanza su meta de respaldos o cuando se registra una "Nueva causa en la plataforma".
+
+2. ¿Qué mensaje se envía a Telegram?
+"📢 ¡Nueva causa comunitaria creada! La iniciativa '[titulo]' ha sido registrada en el sistema. Ingresa a la plataforma para conocer los detalles, sumarte con tu firma y apoyar esta causa colectiva."
+
+3. ¿Qué información NO debe enviarse por seguridad?
+Para proteger los derechos de la comunidad y mitigar riesgos de seguridad, bajo ninguna circunstancia se enviarán datos personales como: números de cédula/documentos de identidad, números telefónicos, direcciones de domicilio, comentarios con información sensible o nombres reales y específicos de los denunciantes.

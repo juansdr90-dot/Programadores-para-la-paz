@@ -1,0 +1,23 @@
+MODELO DE DATOS — PETICIÓN EN 3 CLICS
+
+Entidad: Causa
+Campos principales:
+- id (Clave primaria, Autoincremental)
+- titulo (Texto, Corto)
+- descripcion (Texto largo, Detalle del problema)
+- fecha_creacion (Fecha y Hora)
+
+Propósito:
+Esta entidad sirve para almacenar de forma persistente la información esencial de cada iniciativa o exigencia colectiva levantada por los ciudadanos, permitiendo que sea visible para toda la comunidad.
+
+--------------------------------------------------
+
+Entidad: Apoyo
+Campos principales:
+- id (Clave primaria, Autoincremental)
+- causa_id (Entero, Relación/Clave foránea conectada con la tabla Causa)
+- nombre_anonimizado (Texto o ID interno para trazabilidad)
+- fecha_apoyo (Fecha y Hora)
+
+Propósito:
+Esta entidad sirve para registrar numéricamente cada voto o respaldo que un usuario otorga a una causa específica, garantizando la transparencia del conteo de apoyos sin necesidad de vulnerar la privacidad de los participantes.

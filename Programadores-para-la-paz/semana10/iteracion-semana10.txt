@@ -11,4 +11,4 @@ Porque constituyen el "Producto Mínimo Viable" (MVP). Sin el registro de la inc
 Para que una tarea se considere "Terminada" en nuestro equipo, debe cumplir con estos 3 criterios:
 - Funciona: El código ejecuta la acción esperada sin errores de sintaxis o lógica.
 - Fue probada: Se realizaron pruebas manuales completas simulando el flujo real del usuario de manera exitosa.
-- Quedó registrada en Git: El código limpio y libre de datos sensibles (.env excluido) fue subido al repositorio local mediante un commit descriptivo.  
+- Quedó registrada en Git: El código limpio y libre de datos sensibles (.env excluido) fue subido al repositorio local mediante un commit descriptivo.

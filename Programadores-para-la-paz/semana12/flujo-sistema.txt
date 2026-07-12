@@ -1,0 +1,7 @@
+FLUJO DEL SISTEMA: PETICIÓN EN 3 CLICS
+
+Paso 1: Un ciudadano autenticado ingresa a la plataforma y crea una causa comunitaria (Clic 1).
+Paso 2: La causa se procesa en el backend de Node.js y queda registrada de forma segura en la base de datos.
+Paso 3: Otros ciudadanos acceden al feed principal, revisan la propuesta y presionan el botón para respaldar la iniciativa (Clic 2).
+Paso 4: El sistema actualiza de forma automática el contador de apoyos en la base de datos y verifica que no haya votos duplicados.
+Paso 5: Al alcanzar la meta de respaldos, el líder o coordinador presiona el botón "Generar PDF Formal" (Clic 3) para consolidar la petición con la firma digitalizada del grupo y presentarla ante las entidades correspondientes.
