@@ -1,0 +1,14 @@
+PLAN DE ITERACIÓN — SEMANA 10
+
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: Registro de incidencias por parte del ciudadano.
+- Tarea 2: Envío de alertas automáticas a Telegram para el coordinador.
+
+2. ¿Por qué son las más importantes?
+Porque constituyen el "Producto Mínimo Viable" (MVP). Sin el registro de la incidencia no existen datos reales que procesar, y sin la alerta inmediata se pierde el sentido de la coordinación comunitaria ágil. Estas dos tareas cierran el ciclo básico de captura y comunicación de una necesidad.
+
+3. Definición de Terminado (Definition of Done - DoD):
+Para que una tarea se considere "Terminada" en nuestro equipo, debe cumplir con estos 3 criterios:
+- Funciona: El código ejecuta la acción esperada sin errores de sintaxis o lógica.
+- Fue probada: Se realizaron pruebas manuales completas simulando el flujo real del usuario de manera exitosa.
+- Quedó registrada en Git: El código limpio y libre de datos sensibles (.env excluido) fue subido al repositorio local mediante un commit descriptivo.  

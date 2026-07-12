@@ -1,0 +1,17 @@
+DISEÑO DE AUTOMATIZACIÓN (n8n + Telegram)
+
+1. ¿Qué evento activa el flujo?
+El flujo se activa mediante un nodo "Webhook" o un nodo de escucha en el formulario cada vez que un ciudadano envía un "Nuevo reporte registrado".
+
+2. ¿Qué mensaje se enviaría a Telegram?
+"⚠️ ¡Atención Coordinador! Se ha registrado un nuevo reporte comunitario en el sistema. 
+Categoría del problema: [Categoría del reporte]
+ID de seguimiento: [ID_Generado]
+Por favor, ingresa al panel de control para revisar los detalles y asignar un encargado."
+
+3. ¿Qué información NO debería enviarse por seguridad y privacidad?
+Bajo ninguna circunstancia se enviarán datos sensibles en el canal de Telegram, tales como:
+- Nombres completos o apellidos del denunciante.
+- Números de documento de identidad (Cédula/DNI).
+- Direcciones exactas de residencias privadas o números de teléfono personales.
+- Credenciales, tokens de APIs, contraseñas o enlaces directos a servidores internos.
